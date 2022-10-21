@@ -16,7 +16,7 @@ int main(void)
 			prime /= 2;
 			continue;
 		}
-		for (dic = 3; div < (prime / 2); div += 2)
+		for (div = 3; div < (prime / 2); div += 2)
 		{
 			if ((prime % div) == 0)
 			{
@@ -24,6 +24,6 @@ int main(void)
 			}
 		}
 	}
-	printf("%d\n", prime);
+	printf("%ld\n", prime);
 	return (0);
 }
