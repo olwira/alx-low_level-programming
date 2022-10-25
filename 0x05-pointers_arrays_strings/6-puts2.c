@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints one character out of two
- * @srtr: input
+ * @str: input
  * Return: print
  */
 
