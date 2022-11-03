@@ -1,14 +1,19 @@
 #include "main.h"
 
-int _sqrt(int, int);
-
 /**
  * _sqrt_recursion - giver square root of a number using recursion
  * @n: parameter to be square rooted
- * Return: square root of a number
+ * @i: iterator
+ * Return: a number
  */
 
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int n, int i)
 {
-	return (_sqrt(n, 1));
+	int square = i * i;
+
+	if (square > n)
+		return (-1);
+	if (square == n)
+		return (i);
+	return (_sqrt(n, i + 1));
 }
