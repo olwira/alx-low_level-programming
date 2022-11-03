@@ -2,9 +2,9 @@
 
 /**
  * _memset - the memory set function
- * @s - string
- * @b - a character
- * @n - an integer
+ * @s: string
+ * @b: a character
+ * @n: an integer
  * Return: a string
  */
 
