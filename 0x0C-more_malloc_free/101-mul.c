@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - ultiplies two positive numbers
+ * main - multiplies two positive numbers
  * @argc: argument count
  * @argv: argument vector
  * Return: int
